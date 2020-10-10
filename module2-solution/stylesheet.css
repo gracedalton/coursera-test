@@ -1,4 +1,4 @@
-* {
+.* {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
@@ -6,6 +6,11 @@
 
 body {
 	font-family: helvetica, Arial, sans-serif;
+}
+
+section {
+  position: relative;
+
 }
 
 h1 {
@@ -16,11 +21,13 @@ h1 {
 }
 
 h3 {
-	border: 1px solid black;
+  border: 1px solid black;
 	max-width: 33%;
 	text-align: center;
 	padding: 3px 0;
 	font-size: 125%;
+  float: right;
+  margin: 20px 0px;
 }
 
 p {
@@ -29,18 +36,13 @@ p {
 	margin: 20px 0px 0 20px;
 	width: 90%;
 	padding: 40px 10px 10px 10px;
-}
-
-section {
-	position: relative;
+	
 }
 
 .food {
-	position: absolute;
-	top: 20px;
-	right: 23px;
-	width: 90%;
-	margin: 0;
+
+  position: relative;
+  float: right;
 }
 
 .chicken {
@@ -55,10 +57,6 @@ section {
 	background-color: #e6D198;
 }
 
-
-section {
-	float: left;
-}
 
 /* Simple Responsive Framework. */
 .row {
