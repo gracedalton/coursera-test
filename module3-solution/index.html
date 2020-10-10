@@ -4,24 +4,78 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Boostrap Starter Page</title>
+    <title>Assignment Module 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   </head>
 <body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand space-bottom">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
 
-  <h1>Hello Coursera!</h1>
+          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="menu-categories.html">
+                <br class="visible-xs"> Chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="visible-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="visible-xs"> Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <header class="text-center">Our Menu</header>
+
+  <section class="container-fluid col-xs-12">
+    <div>
+      <h3 class="text-center">Chicken</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada pharetra risus id eleifend. Pellentesque at blandit orci. Proin sed velit in ante efficitur feugiat sit amet ac tellus. Donec molestie eget velit sit amet ultrices. Vestibulum risus massa, porta id mollis sit amet, volutpat in ante. Curabitur porttitor sapien eu lacinia blandit. Pellentesque et erat lacus. Cras consequat nunc magna, non mattis purus iaculis consequat. Nulla volutpat tincidunt ipsum ut pretium.<br><br>
+
+      Nunc vulputate laoreet tincidunt. Sed consectetur, neque vulputate accumsan auctor, massa ex sollicitudin arcu, vel vestibulum lectus tellus ut augue. Pellentesque vehicula nisi feugiat nulla rutrum, ac ultrices augue iaculis. Maecenas sit amet dictum nibh. Nunc at consequat ante. Sed dictum, felis a gravida euismod, felis elit varius augue, dictum convallis odio augue a nisi. Praesent vehicula ipsum sed massa rhoncus, in maximus elit condimentum. Curabitur quis eros purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus volutpat orci a sollicitudin semper. Nam vehicula sit amet est ac eleifend. Quisque eu mi a quam interdum molestie in id nunc.<br><br>
+
+      Etiam sodales ornare nunc id aliquet. Nullam ullamcorper quam ac nisl convallis interdum. Duis ac odio mattis, viverra ligula at, maximus sem. Praesent semper quam nisi, in consectetur tellus viverra non. Quisque et libero condimentum, vehicula magna in, ultricies tellus. Donec rhoncus laoreet nisi, sed volutpat enim aliquam sed. Sed eu ultricies magna.<br><br>
+
+      Donec lectus lectus, ornare ut mauris vel, posuere scelerisque nisl. Sed fermentum risus ante, vestibulum suscipit tellus posuere vitae. Duis lobortis neque in urna vehicula dictum. Duis eleifend accumsan sagittis. Praesent at dapibus mi. Suspendisse placerat viverra massa. Aliquam venenatis diam ac faucibus venenatis. Curabitur nunc dolor, porta pretium arcu eget, scelerisque interdum justo. Vestibulum quis sagittis justo, in suscipit libero. Aliquam laoreet pretium commodo. Aliquam et velit sed diam scelerisque pretium. Vestibulum ullamcorper ac diam ut malesuada.<br><br>
+
+      Donec consectetur risus ac pretium gravida. Donec ultrices ut urna eget commodo. Ut faucibus arcu id eros eleifend pellentesque. Ut sodales dui ac nisl aliquam maximus. Vestibulum ultricies dui lorem, sit amet tempus est egestas quis. Ut ullamcorper semper odio, a vulputate nunc maximus ac. Quisque id mauris eget metus luctus consectetur. Fusce egestas aliquam fermentum. Mauris gravida eleifend purus id suscipit. Vestibulum et vehicula nibh, dictum mattis sem. Aliquam commodo auctor vulputate. Donec semper condimentum congue.<br><br>
+
+      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In sit amet sollicitudin ligula. Nulla mollis, ex ut tempus pretium, odio elit eleifend ex, vitae aliquam mauris leo vitae neque. Pellentesque malesuada finibus nisi id gravida. Nunc nec magna sit amet arcu porttitor efficitur ut ac nulla. Vivamus euismod consequat lobortis. Donec convallis viverra dolor. Maecenas imperdiet tempor rutrum. Etiam pharetra turpis nec ultrices cursus. Vivamus scelerisque turpis in nisl vestibulum viverra aliquam eu quam. Aliquam erat volutpat. Aliquam id tristique dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, purus gravida vehicula viverra, libero eros accumsan diam, id bibendum nulla nulla at erat. In pretium eleifend imperdiet. Praesent nisi felis, mattis id ipsum in, convallis ultricies augue.<br><br>
+
+      Nam tincidunt turpis sed cursus aliquam. Integer luctus est vel sem imperdiet, a cursus urna pulvinar. Suspendisse finibus ipsum eget est fringilla maximus. Cras sagittis eros non massa facilisis sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget lectus dolor. Cras suscipit urna eu ultrices vulputate. Quisque mauris dolor, dictum at cursus ut, ultrices vel leo. Morbi lobortis tellus a maximus pharetra. Etiam ac enim vulputate, cursus tortor nec, dictum tortor. Nulla dapibus tincidunt lectus at convallis. Aliquam et pulvinar odio.<br><br>
+
+      Ut eros sapien, auctor eu malesuada vel, molestie ac felis. Duis at orci eget magna rhoncus iaculis. Suspendisse potenti. Duis in ante urna. In hac habitasse platea dictumst. Integer nec sapien commodo, varius felis ut, ullamcorper ante. Pellentesque eleifend magna et elit elementum, in ullamcorper risus rutrum. Duis ut ornare erat.<br><br>
+
+      Fusce nisl elit, consectetur eget sapien suscipit, sodales fermentum tellus. Pellentesque ligula libero, commodo sed mi non, tempus aliquet turpis. Pellentesque scelerisque nisl nec libero efficitur auctor. Fusce vel nulla eget sapien gravida rhoncus quis et orci. Nam urna nibh, scelerisque vel dictum at, commodo id arcu. Proin justo quam, lacinia eget hendrerit congue, fermentum in magna. Integer in lacus ligula. Quisque ac sagittis velit, id sodales arcu.<br><br>
+
+      Ut a hendrerit sapien. Curabitur aliquet mi id justo tincidunt, at tincidunt neque gravida. Sed et lorem quam. Aenean tincidunt viverra augue ut tempus. Donec consequat eget urna ac dapibus. Etiam euismod tincidunt ligula in mattis. Integer neque ante, commodo a dolor quis, vestibulum eleifend tellus. Mauris faucibus sit amet libero non dignissim. Nulla facilisi. Maecenas viverra pulvinar urna, et tempor felis elementum ut. Quisque sit amet neque lacus. Donec fringilla a quam eget tincidunt. Aliquam cursus lorem lorem, id imperdiet mi accumsan a. In id semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+      </p>
+    </div>
+  </section>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
